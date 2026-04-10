@@ -1,0 +1,19 @@
+service:
+  type: ClusterIP
+
+ingress:
+  enabled: true
+  ingressClassName: nginx
+  hostname: wp.local
+
+persistence:
+  enabled: true
+  storageClass: "nfs-client"
+  size: 20Gi
+
+mariadb:
+  primary:
+    persistence:
+      enabled: true
+      storageClass: "nfs-client"
+      size: 10Gi
