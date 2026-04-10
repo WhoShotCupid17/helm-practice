@@ -1,0 +1,6 @@
+apiVersion: v3
+name: nginx
+description: a helm chart for deploying NGINX to k&s
+type: application
+version: 0.1.0
+appVersion: 1.29.8
