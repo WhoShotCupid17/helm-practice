@@ -1,4 +1,4 @@
-apiVersion: v3
+apiVersion: v2
 name: nginx
 description: a helm chart for deploying NGINX to k&s
 type: application
